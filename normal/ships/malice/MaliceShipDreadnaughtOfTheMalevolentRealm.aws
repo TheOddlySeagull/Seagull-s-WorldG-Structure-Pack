@@ -4,7 +4,7 @@
 
 header:
 version=2.11
-name=malice_lms_normal
+name=MaliceShipDreadnaughtOfTheMalevolentRealm
 mods=rustic,biomesoplenty,quark,ebwizardry
 size=29,63,100
 offset=14,7,87
@@ -11140,7 +11140,7 @@ rule:
 plugin=vanillaSign
 number=585
 data:
-JSON:{signContents0:"",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"north"}},signContents2:"Rune Farm§r",signContents1:"Blacksmith's§r",signContents3:"",rotation:0}
+JSON:{signContents0:"",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"north"}},signContents2:"Rune Farmï¿½r",signContents1:"Blacksmith'sï¿½r",signContents3:"",rotation:0}
 :enddata
 :endrule
 
@@ -11148,7 +11148,7 @@ rule:
 plugin=vanillaSign
 number=586
 data:
-JSON:{signContents0:"",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"west"}},signContents2:"",signContents1:"Blacksmith§r",signContents3:"",rotation:0}
+JSON:{signContents0:"",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"west"}},signContents2:"",signContents1:"Blacksmithï¿½r",signContents3:"",rotation:0}
 :enddata
 :endrule
 
@@ -11180,7 +11180,7 @@ rule:
 plugin=vanillaSign
 number=590
 data:
-JSON:{signContents0:"",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"north"}},signContents2:"",signContents1:"Blacksmith§r",signContents3:"",rotation:0}
+JSON:{signContents0:"",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"north"}},signContents2:"",signContents1:"Blacksmithï¿½r",signContents3:"",rotation:0}
 :enddata
 :endrule
 
