@@ -75,11 +75,11 @@ wallPatterns:
 #list of structures, one per line
 uniqueStructures:
 SarkonidTownGenTownHall
-SarkonidTownGenMainTemple
 :endUniqueStructures
 
 #list of main structures, one per line
 mainStructures:
+SarkonidTownGenMainTemple
 SarkonidTownGenMainOasis
 SarkonidTownGenWaystone
 SarkonidTownGenMarketSquare
