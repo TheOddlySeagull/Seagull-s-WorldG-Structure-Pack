@@ -5,7 +5,7 @@
 header:
 version=2.11
 name=NorskaTownGenCraftsmanGlassWorker
-mods=zawa
+mods=
 size=22,17,13
 offset=15,5,12
 :endheader
