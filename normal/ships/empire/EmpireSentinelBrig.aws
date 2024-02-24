@@ -1,5 +1,5 @@
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 2/24/2024 at: 11:7:41
+# Auto-generated structure template file. created on: 2/24/2024 at: 11:43:47
 # Lines beginning with # denote comments
 
 header:
@@ -31,7 +31,7 @@ leveling=0
 fill=0
 border=0
 blockSwap=false
-territoryName=empire
+territoryName=empirefleet
 biomeReplacement=minecraft:
 :endvalidation
 
