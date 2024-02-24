@@ -1,5 +1,5 @@
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 2/24/2024 at: 10:45:1
+# Auto-generated structure template file. created on: 2/24/2024 at: 11:7:16
 # Lines beginning with # denote comments
 
 header:
@@ -20,7 +20,7 @@ unique=false
 preserveBlocks=true
 preventNaturalHostileSpawns=false
 selectionWeight=40
-clusterValue=50
+clusterValue=500
 minDuplicateDistance=1000
 dimensionWhiteList=true
 dimensionList=0
@@ -1854,7 +1854,7 @@ rule:
 plugin=blockTile
 number=133
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:7,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:9,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1950,7 +1950,7 @@ rule:
 plugin=blockTile
 number=145
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:7,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
