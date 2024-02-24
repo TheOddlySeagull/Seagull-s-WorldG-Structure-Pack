@@ -1,5 +1,5 @@
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 2/22/2024 at: 23:38:7
+# Auto-generated structure template file. created on: 2/24/2024 at: 10:44:51
 # Lines beginning with # denote comments
 
 header:
@@ -20,7 +20,7 @@ unique=false
 preserveBlocks=true
 preventNaturalHostileSpawns=false
 selectionWeight=10
-clusterValue=600
+clusterValue=60
 minDuplicateDistance=5000
 dimensionWhiteList=true
 dimensionList=0
@@ -648,7 +648,7 @@ rule:
 plugin=blockTile
 number=15
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:0b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],HandDropChances:[0.085f,0.085f],HandItems:[{},{}]},maxToSpawn:1,entityId:"zawa:brownrat",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:7,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:0b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],ArmorItems:[{},{},{},{}],HandDropChances:[0.085f,0.085f],HandItems:[{},{}]},maxToSpawn:1,entityId:"zawa:brownrat",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1112,7 +1112,7 @@ rule:
 plugin=blockTile
 number=73
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1120,7 +1120,7 @@ rule:
 plugin=blockTile
 number=74
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:7,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1152,7 +1152,7 @@ rule:
 plugin=blockTile
 number=78
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1184,7 +1184,7 @@ rule:
 plugin=blockTile
 number=82
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1216,7 +1216,7 @@ rule:
 plugin=blockTile
 number=86
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.siege_engineer",minToSpawn:1}],groupWeight:1}],playerRange:64,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.siege_engineer",minToSpawn:1}],groupWeight:1}],playerRange:64,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1224,7 +1224,7 @@ rule:
 plugin=blockTile
 number=87
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_halberd",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_halberd",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1232,7 +1232,7 @@ rule:
 plugin=blockTile
 number=88
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:2,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:8,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_spear",Count:1b,Damage:0s},{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"ancientwarfarenpc:iron_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1256,7 +1256,7 @@ rule:
 plugin=blockTile
 number=91
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:2,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1272,7 +1272,7 @@ rule:
 plugin=blockTile
 number=93
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:2,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1312,7 +1312,7 @@ rule:
 plugin=blockTile
 number=98
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:7,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1336,7 +1336,7 @@ rule:
 plugin=blockTile
 number=101
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1408,7 +1408,7 @@ rule:
 plugin=blockTile
 number=110
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:9,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],CustomName:"Empire Archer",hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"empire",HandItems:[{ForgeCaps:{"customnpcs:itemscripteddata":{}},id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
