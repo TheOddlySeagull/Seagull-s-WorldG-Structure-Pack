@@ -4,7 +4,7 @@
 
 header:
 version=2.11
-name=sarkonid_cns_trade_spice
+name=SarkonidTriremeSpiceSkipper
 mods=harvestcraft
 size=25,20,17
 offset=7,2,8

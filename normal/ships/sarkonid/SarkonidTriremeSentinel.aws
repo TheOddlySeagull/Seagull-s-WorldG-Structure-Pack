@@ -4,7 +4,7 @@
 
 header:
 version=2.11
-name=sarkonid_rns_normal
+name=SarkonidTriremeSentinel
 mods=
 size=33,25,21
 offset=13,2,10
@@ -21,7 +21,7 @@ preserveBlocks=true
 preventNaturalHostileSpawns=false
 selectionWeight=11
 clusterValue=500
-minDuplicateDistance=2000
+minDuplicateDistance=200
 dimensionWhiteList=true
 dimensionList=0
 biomeGroupList=
